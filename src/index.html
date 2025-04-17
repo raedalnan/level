@@ -1,0 +1,327 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="fixed-contact-buttons">
+      <a href="mailto:info@level-consultancy.com" class="contact-icon" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="#" class="contact-icon" aria-label="Phone"> <i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <header id="navbar" class="navbar">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <div class="logo">
+            <div class="logo-title">LEVEL</div>
+            <div class="logo-sub">DESIGN&nbsp;CONSULTANC</div>
+          </div>
+
+          <!-- Burger Button -->
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li class="dropdown">
+              <a href="#services">Services</a>
+              <ul class="dropdown-menu">
+                <li><a href="/services/bim.html">BIM-solutions</a></li>
+                <li><a href="/services/architecture.html">Architectural Design</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#projects">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a href="/projects/bim.html">BIM-solutions</a></li>
+                <li><a href="/projects/architecture.html">Architectural Design</a></li>
+              </ul>
+            </li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-section">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-static">
+      <div class="hero-background"></div>
+
+      <div class="hero-content">
+        <p class="hero-tagline">BIM-Centered Excellence</p>
+
+        <h1 class="hero-title">LEVEL Engineering Consultancy</h1>
+
+        <p class="hero-subtitle">
+          LEVEL is a multidisciplinary engineering consultancy based in Dubai, specializing in
+          design-driven and BIM-powered project delivery. We combine architecture, MEP, structural
+          expertise, and cutting-edge digital workflows to bring your vision to life with precision
+          and innovation.
+        </p>
+
+        <a href="#about-section" class="hero-button scroll-down" aria-label="Scroll to About">
+          Explore More ↓
+        </a>
+      </div>
+    </section>
+
+    <section class="about-section" id="about-section">
+      <div class="about-content">
+        <span class="section-label">ABOUT LEVEL</span>
+        <h2 class="about-title">Where Innovation Meets Precision</h2>
+        <p class="about-description">
+          LEVEL is a leading engineering consultancy based in Dubai, specializing in architectural
+          design and advanced BIM (Building Information Modeling) solutions. With a passionate team
+          blending creativity and technical excellence, we deliver high-end interior and exterior
+          designs that redefine modern spaces.
+        </p>
+        <p class="about-description">
+          From residential to commercial and mixed-use developments, we provide innovative concepts
+          powered by cutting-edge technology. We don’t just design buildings — we shape landmarks,
+          driven by quality, precision, and forward-thinking solutions.
+        </p>
+        <a href="#services" class="about-link">Discover More →</a>
+      </div>
+
+      <div class="about-image">
+        <img src="/images/about.png" alt="About LEVEL BIM Interior Design" />
+      </div>
+    </section>
+    <section class="hero-split-section">
+      <div class="hero-split-header">
+        <span class="section-label">WHAT WE DO</span>
+        <h2 class="split-title">Two Disciplines. One Vision.</h2>
+        <p class="split-subtitle">
+          LEVEL’s work flows through two strategic paths — immersive architectural design and
+          data-driven BIM execution.
+        </p>
+      </div>
+
+      <div class="hero-split-wrapper">
+        <a href="/services/architecture.html" class="hero-split half left">
+          <div class="overlay">
+            <h3>Architectural Design</h3>
+            <p>Spaces shaped by creativity, form, and elegance — built around human experience.</p>
+            <span class="cta">Explore Design →</span>
+          </div>
+        </a>
+
+        <a href="/services/bim.html" class="hero-split half right">
+          <div class="overlay">
+            <h3>BIM & Digital Engineering</h3>
+            <p>
+              Smart modeling, coordination, and digital delivery from LOD to facility-ready
+              handovers.
+            </p>
+            <span class="cta">Explore BIM →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="ourwork-section" id="projects">
+      <div class="ourwork-header">
+        <span class="section-label">OUR WORK</span>
+        <h2 class="ourwork-title">Two Domains. One Standard of Excellence.</h2>
+        <p class="ourwork-description">
+          Whether it's shaping space with creativity or delivering technical precision, LEVEL's work
+          reflects its dual strength in design and digital delivery.
+        </p>
+      </div>
+
+      <div class="dual-work-grid">
+        <div class="work-path">
+          <h3>Architectural Design Projects</h3>
+          <p>
+            Explore LEVEL’s design-led portfolio including residential, commercial, and mixed-use
+            developments. Creativity meets context in every concept.
+          </p>
+          <a href="/projects/architecture.html" class="view-projects-link">View Projects →</a>
+        </div>
+
+        <div class="work-path">
+          <h3>BIM & Engineering Projects</h3>
+          <p>
+            Discover projects executed using BIM technologies, clash-free modeling, 4D/5D
+            simulation, and digital twin handover for operational readiness.
+          </p>
+          <a href="/projects/bim.html" class="view-projects-link">View Projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="workflow-section" id="workflow">
+      <div class="workflow-header">
+        <span class="section-label">HOW WE WORK</span>
+        <h2 class="workflow-title">LEVEL’s End-to-End BIM Workflow</h2>
+        <p class="workflow-description">
+          Our process ensures every project is driven by collaboration, technology, and precision —
+          from concept to handover.
+        </p>
+      </div>
+
+      <div class="workflow-grid">
+        <div class="workflow-step">
+          <img src="/images/step1.jpg" alt="Concept Design" />
+          <h3>Concept Design</h3>
+          <p>
+            Initial visualization and design intent development using BIM tools and architectural
+            planning.
+          </p>
+        </div>
+        <div class="workflow-step">
+          <img src="/images/step2.jpg" alt="3D Modeling" />
+          <h3>3D Modeling</h3>
+          <p>
+            Creating multidisciplinary models (Architecture, Structure, MEP) across LOD 300–500.
+          </p>
+        </div>
+        <div class="workflow-step">
+          <img src="/images/step3.jpg" alt="Clash Detection" />
+          <h3>Clash Detection</h3>
+          <p>
+            Running coordination checks, clash reports, and resolution sessions through BIM 360 and
+            Navisworks.
+          </p>
+        </div>
+        <div class="workflow-step">
+          <img src="/images/step4.jpg" alt="Construction Docs" />
+          <h3>Construction Documentation</h3>
+          <p>
+            Delivering IFC-ready models, shop drawings, and construction-level detail documentation.
+          </p>
+        </div>
+        <div class="workflow-step">
+          <img src="/images/step5.jpg" alt="4D/5D Simulation" />
+          <h3>4D & 5D Simulation</h3>
+          <p>
+            Linking time and cost with the model to simulate project schedule and budget planning.
+          </p>
+        </div>
+        <div class="workflow-step">
+          <img src="/images/step6.jpg" alt="Facility Management" />
+          <h3>FM Integration</h3>
+          <p>
+            Handover with digital twin, asset data, COBie, and BIM360 Ops-ready models for lifecycle
+            management.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="clients-section" id="clients">
+      <div class="clients-header">
+        <span class="section-label">MAJOR CLIENTS</span>
+        <h2 class="clients-title">Trusted by Leaders Across Sectors</h2>
+        <p class="clients-description">
+          LEVEL collaborates with prestigious developers, contractors, and consultants across the
+          region, delivering value through technology and expertise.
+        </p>
+      </div>
+
+      <div class="swiper clients-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">EMAAR</div>
+          <div class="swiper-slide">DAMAC</div>
+          <div class="swiper-slide">NASHAMA</div>
+          <div class="swiper-slide">AECOM</div>
+          <div class="swiper-slide">ATOM</div>
+          <div class="swiper-slide">JEET CONSTRUCTION</div>
+          <div class="swiper-slide">RAWAFID INDUSTRY</div>
+          <div class="swiper-slide">HR WALLINGFORD</div>
+          <div class="swiper-slide">HILALCO</div>
+          <div class="swiper-slide">ARCADIS</div>
+          <div class="swiper-slide">ADVANCED WATER TECHNOLOGY</div>
+          <div class="swiper-slide">ARCHIRODON</div>
+          <div class="swiper-slide">SHAPOORJI PALLONJI</div>
+          <div class="swiper-slide">ARTELIA</div>
+          <div class="swiper-slide">AJMAN POLICE</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-header">
+        <span class="section-label">CONTACT US</span>
+        <h2 class="contact-title">Let’s Start Your Project Together</h2>
+        <p class="contact-description">
+          Reach out to LEVEL’s team for consultations, collaborations, or inquiries. We're here to
+          help bring your vision to life.
+        </p>
+      </div>
+
+      <form class="contact-form" action="#" method="POST">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="contact-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- <main style="height: 2000px"></main> -->
+    <footer class="site-footer">
+      <div class="footer-content animate-fade-in">
+        <div class="footer-brand">
+          <h3 class="footer-logo">LEVEL</h3>
+          <p>Interior Design & Engineering Consultancy<br />Dubai, UAE</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-section">About</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+          <p>Email: info@level-consultancy.com</p>
+          <p>Phone: +971 4 123 4567</p>
+
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+
+          <form class="footer-newsletter" onsubmit="event.preventDefault()">
+            <input type="email" placeholder="Subscribe to our newsletter" required />
+            <button type="submit">→</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom animate-fade-in">
+        <p>© 2025 LEVEL Consultancy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/scripts/main.js"></script>
+  </body>
+</html>
